@@ -26,7 +26,7 @@ Create your first API key for this app : [API Key](https://platform.openai.com/a
 Use our ```getAIMsg``` function to generate a human readable error message.
 
 ```javascript
-import getResponse from "respondai"
+import getAIMsg from "respondai"
 
 const getData = () => {
 
@@ -43,5 +43,5 @@ const getData = () => {
 
 ```
 
-To contribute : 
+To contribute : [RespondAI](https://github.com/thevinitgupta/RespondAI)
 Follow me on Github : [thevinitgupta ✅](https://github.com/thevinitgupta)
