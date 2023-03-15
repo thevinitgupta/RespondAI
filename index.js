@@ -3,7 +3,7 @@ import fetch from "node-fetch";
 const generateMessage = (message) =>{
     return {role : "user", content : String.raw`Simple response in 150 characters for the message for frontend : : ${message}`}
 }
-export default async function getAIMsg(message,apiKey){
+async function getAIMsg(message,apiKey){
     const messageObj = generateMessage(message);
     const apiRequestBody = {
         "model" : "gpt-3.5-turbo",
@@ -26,3 +26,5 @@ export default async function getAIMsg(message,apiKey){
         return "Error fetching message "+error.message;
     }
 }
+
+export default getAIMsg;
