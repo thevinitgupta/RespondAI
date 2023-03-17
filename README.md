@@ -2,7 +2,7 @@
 
 <hr/>
 
-Tired of complicated error messages?😵 Yes, me to.
+Tired of complicated error messages?😵 Yes, me too.
 
 So here is Response AI to turn them into simple, human-readable error codes using the famous ChatGPT🤖
 
